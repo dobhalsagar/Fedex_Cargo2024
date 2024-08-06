@@ -58,6 +58,8 @@ public class NewTestNG extends Base {
 	public void testMethodA()
 	{
 		System.out.println(" Test Method A ");
+		System.out.println(" Test Method B ");
+		System.out.println(" Test Method C ");
 	}
 	
 	@AfterMethod
