@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testPackage.NewTestNG">
+        <methods>
+          <include name="testMethodB"/>
+          <include name="beforeTest"/>
+          <include name="afterSuit"/>
+          <include name="beforeSuit"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforemethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testPackage.NewTestNG -->
+    </classes>
+  </test> <!-- ChromeTest(failed)(failed) -->
+  <test thread-count="5" name="FirefoxTest(failed)(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="testPackage.NewTestNG">
+        <methods>
+          <include name="testMethodB"/>
+          <include name="afterSuit"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuit"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforemethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testPackage.NewTestNG -->
+    </classes>
+  </test> <!-- FirefoxTest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
